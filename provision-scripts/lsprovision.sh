@@ -3,11 +3,11 @@
 AZ_USER_NAME=${1}
 AZ_USER_PASSWORD=${2}
 AZ_TENANT_ID=${3}
-AZ_SUBSCRIPTION_ID={4}
+AZ_SUBSCRIPTION_ID=${4}
 SP_NAME=${5}
 SP_SECRET=${6}
-SP_OBJECT_ID={7}
-SP_APP_ID={8}
+SP_OBJECT_ID=${7}
+SP_APP_ID=${8}
 
 wget --quiet --no-check-certificate -P /root https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/provision-stage1.sh
 wget --quiet --no-check-certificate -P /root https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/provision-stage2.sh
